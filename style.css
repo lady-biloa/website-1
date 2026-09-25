@@ -460,7 +460,7 @@ nav a.active {
 .produit-image {
     width: 100%;
     height: 220px;
-
+    
     overflow: hidden;
 }
 
@@ -469,7 +469,6 @@ nav a.active {
     height: 100%;
 
     object-fit: cover;
-
     transition: 0.4s;
 }
 
@@ -479,8 +478,8 @@ nav a.active {
 
 .produit-info {
     padding: 20px;
-
-    color: white;
+    background: whitesmoke;
+    color: rgb(14, 0, 0);
 }
 
 .produit-info small {
