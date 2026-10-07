@@ -258,8 +258,9 @@ nav a.active {
             rgba(30,70,35,0.1),
             rgba(30,70,35,0.3)
         ),
-        url("/images/pac7.webp") center / cover;
+        url("/images/cos.jpeg") center / cover;
 
+        
     border: 1px solid rgba(255, 255, 255, 0.986);
 
     box-shadow:
@@ -300,7 +301,7 @@ nav a.active {
 }
 
 .card {
-    padding: 25px;
+    padding: 15px;
 
     background: rgba(255,255,255,0.16);
 
@@ -310,7 +311,7 @@ nav a.active {
 
     border-radius: 25px;
 
-    color: white;
+    color: #003B73;
 
     transition: 0.3s;
 }
@@ -331,27 +332,42 @@ nav a.active {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: 10px;
     margin-bottom: 15px;
 
     border-radius: 16px;
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(190,240,130,0.7),
-            rgba(70,180,100,0.5)
-        );
+    background:transparent;
 
     font-size: 25px;
+}
+.mage{
+    background-image: url(./images/facom.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.magee{
+    background-image: url(./images/lait2.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.mag{
+        background-image: url(./images/margar.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
 }
 
 .card h3 {
     margin-bottom: 10px;
+    color: transparent;
 }
 
 .card p {
-    color: #003B73;
+    color: transparent;
 
     line-height: 1.5;
 
@@ -854,7 +870,7 @@ nav a.active {
 
     padding: 25px;
 
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.932);
 
     border: 1px solid rgba(255, 255, 255, 0.815);
 
@@ -1095,7 +1111,15 @@ nav a.active {
     margin: 0;
 }
 
+.produit-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
 
+.m{
+    color: transparent;
+}
 /* =========================
    VALEURS
 ========================= */
@@ -1126,7 +1150,7 @@ nav a.active {
 .valeur {
     padding: 25px;
 
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.952);
 
     border-radius: 22px;
 
